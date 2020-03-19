@@ -1,0 +1,21 @@
+#go {
+  background-color: blue;
+}
+
+#place {
+  background-color: powderblue;
+  width: 100px;
+
+}
+
+#container {
+  text-align:center;
+  border-width: 5px;
+}
+
+form {
+  border-style: dashed;
+  border-width: 50%;
+  background-color: red;
+  padding-left: 30%;
+}

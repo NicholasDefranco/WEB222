@@ -1,0 +1,251 @@
+html,body
+{
+  padding:0;
+  margin:0;
+  height: 100%;
+}
+
+
+#container
+{
+  width:90%;
+  background-color:black;
+  color:white;
+  margin:0 auto 0 auto;
+  min-height: 100%;
+
+}
+
+header > img
+{
+    margin: 20px 0px 0px 75px;
+}
+
+header
+{
+  width:100%;
+  background-color:hotpink;
+  height: 80px;
+  float:left;
+}
+
+nav
+{
+  width:100%;
+  background-color:firebrick;
+  height: 35px;
+  float:left;
+}
+
+aside{
+  width:100%;
+  background-color:aqua;
+  float:left;
+}
+
+main
+{
+  width:100%;
+  background-color:mediumspringgreen;
+  float:left;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    aside
+    {
+      width:30%;
+    }
+
+    main{
+      width:70%;
+    }
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+/*
+p  This selector is a tag, thus, all the css rules will be applied to all the paragraphs 
+{
+  text-align: left;
+  font-family:Lora;
+}
+ */
+
+/*
+#altPara
+{
+  color:blue;
+  font-weight: bold;
+}
+
+#underL
+{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#container
+{
+  width:75%;
+  background-color: pink;
+  border :5px solid red;
+  border-radius: 5px;
+  padding: 10px 0px 0px 25px;
+  margin: 10px 0px 0px 130px;
+/* display: none;*/
+
+/*
+}
+
+
+a
+{
+  color:darkred;
+  font-size:20px;
+}
+
+.footerLinks
+{
+  text-decoration: none;
+}
+
+/*Attribute Selector
+
+[nameofAttribute="value"]
+{
+
+}
+
+*/
+
+[type="button"]
+{
+  background-color:red;
+}
+
+/*Combinators
+
+  1. a > b
+
+  Example : 
+
+  div > h1
+  {
+    css rules;
+  }
+    <div> 
+        <h1> </h1>
+    </div>
+    <div>
+        <p>
+            <h1> </h1>
+        </p>
+    </div>
+
+  2  a b
+
+    div h1
+  {
+    css rules;
+  }
+    <div> 
+        <h1> </h1>
+    </div>
+    <div>
+        <p>
+            <h1> </h1>
+        </p>
+    </div>
+  Example .footerLinks
+
+
+  3 a + b
+
+  h1 + span
+  {
+
+  }
+   <div>
+      <h1> </h1>
+      <span> </span>
+      <p></p>
+      <span> </span>
+      <h2> </h2>
+      <h1> </h1>
+
+   </div>
+
+  4 a ~ b 
+
+  h1 ~ span
+  {
+      CSS RULES!! 
+  }
+    <div>
+      <h1> </h1>
+      <span> </span>
+      <p></p>
+      <span> </span>
+      <h2> </h2>
+      <h1> </h1>
+
+   </div>
+
+*/
+
+a:hover{
+  background-color:coral;
+}
+
+
+/*#container2
+{
+  background-color: green;
+}
+*/
+/*
+.col
+{
+  background-color:brown;
+}
+
+div
+{
+  background-color:yellow;
+}
+*/
