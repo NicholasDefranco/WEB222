@@ -1,0 +1,42 @@
+Syntax - rules that govern any programming language.
+
+JavaScript - Is a Programming Language that adds behaviour to a web page.  
+- front end or client-side technology (HTML and CSS are client side as well).
+These technologies run by the client(browser).
+
+Node.js - Platform that allows JavaScript to run on the server.
+
+Strong Typed languages - must indicate a data type when declaring a variable
+Loosely Typed languages - don't need to indicate a data type when creating a variable
+
+JavaScript syntax: 
+
+Versions - ES5, ES6
+
+Variable - a variable is a named memory location that stores a single value that can change.
+
+Variable Daclaration
+var nameOfVar;
+
+1) A variable name cannot start with a number.
+2) A variable name cannot be a reserved or keyword
+3) A variable name should be meaningful
+4) A variable could ONLY consist of letters, numbers, _, $
+5) A variable cannot have spaces
+
+Data Types
+
+1) primitive - number, string, bool, undefined, null, Symbols(ES6)
+2) References
+
+Assignment Operator:
+
+Simple Assignment 	
+var num = 9;
+num = "wow";
+num = true;
+
+***LEGAL***
+not recommended though
+
+
